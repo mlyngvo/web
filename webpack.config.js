@@ -5,8 +5,8 @@ module.exports = {
     entry: './src/index.tsx',
 
     output: {
-        filename: 'main.js',
-        path: path.resolve(__dirname, 'dist'),
+        filename: 'main.[fullhash].js',
+        path: path.resolve(__dirname, 'docs'),
     },
 
     mode: 'development',

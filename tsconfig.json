@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "target": "ES5",
+    "moduleResolution": "Node",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "strict": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "noUnusedParameters": true,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  },
+  "exclude": ["dist"]
+}

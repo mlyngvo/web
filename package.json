@@ -6,7 +6,7 @@
   "scripts": {
     "cleanup": "rimraf ./docs",
     "lint": "eslint . --ext .tsx --ext .ts --fix",
-    "build": "npm run cleanup; npm run lint; webpack --mode=production",
+    "build": "npm run cleanup; npm run lint; webpack --mode=production; echo 'minhlynguyenvo.com' > ./docs/CNAME ",
     "start": "webpack serve"
   },
   "keywords": [],
